@@ -212,8 +212,8 @@ def aes_decrypt(ciphertext, key):
     return plaintext
 
 # Example usage:
-plaintext = bytearray.fromhex("00112233445566778899aabbccddeeff")
-key = bytearray.fromhex("000102030405060708090a0b0c0d0e0f")
+plaintext = bytearray.fromhex("4d617468656d61746963733534333231")
+key = bytearray.fromhex("4d617468656d61746963733132333435")
 
 print("AES-128 Example:")
 ciphertext = aes_encrypt(plaintext, key)
