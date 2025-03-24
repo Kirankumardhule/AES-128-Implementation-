@@ -1,10 +1,8 @@
-#AES-128 Implementation
-#Author: [Your Name]
+#AES-128 Implementation with Round-wise Output
+#Author: [Kirankumar Dhule]
 #References:
 #- NIST FIPS 197 (AES Standard): https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
 #- Rijndael S-box/MixColumns theory (Daemen & Rijmen)
-
-# AES-128 Implementation with Round-wise Output
 
 # S-box and Inverse S-box
 s_box = [
